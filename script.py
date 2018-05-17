@@ -45,7 +45,7 @@ def run(filename):
 
     if p:
         (commands, symbols) = p
-        for c in commands:
+        for command in commands:
             c = command[0]
             if c == "sphere":
                 add_sphere(polygons,
